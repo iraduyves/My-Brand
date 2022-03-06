@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My brand Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+           <div class="sidebar-header">
+            <a href="landingpage.html">Home</a>
+           </div>
+           <div class="sidebar-menu">
+               <div class="menu">
+                   
+                   <label class="menu-item" id="dashboard"><span>dashboard</span></label>
+               </div>
+               <div class="menu">
+                   <label class="menu-item" id="articles"><span>articles</span></label>
+
+               </div>
+               <div class="menu">
+                   <label class="menu-item" id="subscribers"><span>subscribers</span></label>
+
+               </div>
+               <div class="menu">
+                   <label class="menu-item" id="setting"><span>setting</span></label>
+
+               </div>
+               <div class="menu">
+
+                   <label class="menu-item" id="logout"><span>log out</span></label>
+               </div>
+             
+           </div>
+        </div>
+        <div class="content-container">
+            <div class="content-container-header">
+                <div class="profile-holder">
+                    <img src="./20f89723-5d23-4b8d-8f32-85e7b7786e58.jpg" alt="">
+                </div>
+
+            </div>
+           <div class="content-container-content">
+               <form id="article-form" class="form-horizontal" role="form">
+         
+                <div class="form-group">
+                    <label for=""> Title:</label><br>
+                    <input type="text" class="form-control" id="name" placeholder="Tile" name="name" value="" required>
+                
+                </div>
+                <div class="form-group">
+                    <label for=""> Description:</label><br>
+                    <textarea name="text" id="text" cols="60" rows="5"  placeholder="Description" require="" ></textarea>
+                
+                </div>
+                <div class="blog-pic">
+                    <label for="">Image:
+                    <img src="" alt="">
+                    <br>
+                  <input type="file" class="file" id="file" name="file" required=""></label>
+               </div> 
+                <button class=" send-button" id="submit" type="submit" value="Post">
+                  <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">Post</span>
+                  </div>
+                
+                </button>
+                
+              </form>
+           </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -26,8 +26,13 @@ header {
   z-index: 4;
 }
 #logo {
-  color: aqua;
+  color: #002e5b;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#logo:hover {
+  background-color: #002e5b;
+  color: aqua;
+  transition: all 05s ease 0s;
 }
 .u {
   text-align: left;
@@ -39,7 +44,7 @@ header {
 
 nav a:hover {
   background-color: #002e5b;
-  color: #f32d0a;
+  color: aqua;
   transition: all 05s ease 0s;
 }
 .yyyy {

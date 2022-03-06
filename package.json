@@ -1,0 +1,15 @@
+{
+    "name": "npm",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "=apps.js",
+    "dependencies": {},
+    ",scripts":{
+        "test": ""
+    },
+    "devDependencies": {},
+     "keywords": [],
+     "author": "",
+     "license": "mit"
+}
